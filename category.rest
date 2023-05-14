@@ -1,0 +1,37 @@
+GET http://localhost:5000/categories
+
+###
+
+GET http://localhost:5000/category/1
+
+###
+POST http://localhost:5000/category
+Content-Type: application/json
+
+{
+    "name": "novel"
+}
+
+###
+POST http://localhost:5000/category
+Content-Type: application/json
+
+{
+    "name": "comic"
+}
+
+###
+POST http://localhost:5000/category
+Content-Type: application/json
+
+{
+    "name": "biography"
+}
+
+###
+POST http://localhost:5000/category
+Content-Type: application/json
+
+{
+    "name": "education"
+}
